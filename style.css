@@ -23,6 +23,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin-left: 13rem;
 }
 
 
@@ -69,7 +70,7 @@ a {
   letter-spacing: 10px;
 
   position: relative;
-  top: 0;
+ bottom: 1rem;
   right: 2rem;
 }
 
@@ -88,7 +89,7 @@ a {
   border: 2px solid rgba(0, 0, 0, 0);
   color: white;
   position: relative;
-  bottom: 0;
+  bottom: 4rem;
 }
 
 .tech-slideshow {
@@ -104,7 +105,7 @@ a {
 
   z-index: 2;
   left: 25rem;
-  bottom: 5rem;
+  bottom: 3.5rem;
 }
 
 .tech-slideshow-2 {
@@ -119,8 +120,8 @@ a {
   overflow: hidden;
 
   z-index: 2;
-  left: 46rem;
-  bottom: 5rem;
+  left: 45rem;
+  bottom: 3.5rem;
 }
 .tech-slideshow-3 {
   height: 100px;
@@ -134,8 +135,8 @@ a {
   overflow: hidden;
 
   z-index: 2;
-  left: 66rem;
-  bottom: 5rem;
+  left: 65rem;
+  bottom: 3.5rem;
 }
 
 .tech-slideshow > div {
@@ -151,7 +152,7 @@ a {
   background-size: contain;
 }
 .tech-slideshow .mover-1 {
-  animation: moveSlideshow 12s linear infinite;
+  animation: moveSlideshow 18s linear infinite;
 }
 .tech-slideshow .mover-2 {
   opacity: 0;
@@ -183,7 +184,7 @@ a {
   background-size: contain;
 }
 .tech-slideshow-2 .mover-1 {
-  animation: moveSlideshow 12s linear infinite;
+  animation: moveSlideshow 15s linear infinite;
 }
 .tech-slideshow-2 .mover-2 {
   opacity: 0;
@@ -238,7 +239,7 @@ a {
   position: absolute;
   left: 27rem;
   z-index: 3;
-  bottom: 7rem;
+  bottom: 5.5rem;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -246,18 +247,18 @@ a {
 
 #two {
   position: absolute;
-  left: 48rem;
+  left: 47rem;
   z-index: 3;
-  bottom: 7rem;
+  bottom: 5.5rem;
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
 #three {
   position: absolute;
-  left: 67.9rem;
+  left: 67rem;
   z-index: 3;
-  bottom: 7rem;
+  bottom: 5.5rem;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -265,29 +266,42 @@ a {
 
 h1 i {
   position: relative;
-  right: 27rem;
+  right: 26rem;
   top: 17rem;
 }
-h1 {
-  margin-left: 19rem;
-}
+
 
 .click-use {
   position: relative;
-  top: 7rem;
+  top: 9rem;
   width: 50px;
-  left: 38rem;
-
-
+  left: 37rem;
+font-size: 25px;
   text-align: start;
   letter-spacing: 15px;
-  font-size: 16px;
+ 
   justify-content: start;
 
   height: 50px;
+}
+.use-if{
+    position: relative;
+    top: 10rem;
+    letter-spacing: 15px;
+    left: 1rem;
+
 }
 .row iframe{
 padding: 1rem;
   height: 400px;
 
 }
+.maker{
+    color: #fff;
+height: 60px;
+    text-align: center;
+
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+

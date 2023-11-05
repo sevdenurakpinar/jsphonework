@@ -6,7 +6,7 @@ document.getElementById("increase-counter").addEventListener("click", function()
   // Sayıyı göster
   document.getElementById("counter").innerHTML = counter;
   // Mesajı göster
-  document.getElementById("message-text").innerHTML = "<b>DİSRACTED:<br> <b id=\"counter\">" + counter + "</b> TİMES ";
+  document.getElementById("message-text").innerHTML = "<b>INABILITY TO FOCUS: <b id=\"counter\">" + counter + "</b> TIMES ";
 });
 
 
